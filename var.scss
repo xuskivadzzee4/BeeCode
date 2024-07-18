@@ -1,0 +1,43 @@
+$_white: #FFFFFF;
+$_orange: #FF8A00;
+$_orange2: #FDA53D;
+$_purple: #330656;
+$_purple2: #9D4CDC;
+$_purple3: #2C1F35;
+$_purple4: #BC70F8;
+$_purple5: #4B2D62;
+$_blue: #06C3FF;
+$_red: #F00;
+$_circle-color: #FAF3FF;
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin border {
+    border-radius: 35px;
+    border: 10px solid #76558F;
+}
+@mixin border-sm-purple {
+    border-radius: 14px;
+    border: 6px solid #76558F;
+}
+@mixin border-sm-white {
+    border-radius: 8px;
+    border: 5px solid #FFF;
+}
+@mixin border-desktop-purple {
+    border-radius: 35px;
+    border: 10px solid #76558F;
+}
+
+@mixin border-desktop-white {
+    border-radius: 22px;
+    border: 8px solid #FFF;
+}
+
+@mixin border-desktop2-purple {
+    border-radius: 22px;
+    border: 4px solid #835EA0;
+}
